@@ -1,0 +1,20 @@
+### Get all products
+GET http://localhost:3000/api/products
+
+### Create a new product
+POST http://localhost:3000/api/products
+Content-Type: application/json
+
+{
+  "name": "Monitor",
+  "price": 5000
+}
+
+### Create another product
+POST http://localhost:3000/api/products
+Content-Type: application/json
+
+{
+  "name": "USB Cable",
+  "price": 300
+}
