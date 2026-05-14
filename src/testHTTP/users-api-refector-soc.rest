@@ -1,0 +1,24 @@
+### Get all users
+GET http://localhost:3000/api/users
+
+### Create a new user
+POST http://localhost:3000/api/users
+Content-Type: application/json
+
+{
+  
+  "username": "Della",
+  "email": "della@example.com",
+  "password": "password123"
+}
+
+### Update a user
+PUT http://localhost:3000/api/users/2
+Content-Type: application/json
+
+{
+  
+  "username": "Jirayut",
+  "email": "Jirayut@example.com",
+  "password": "password123"
+}
